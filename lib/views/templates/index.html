@@ -1,0 +1,22 @@
+<html>
+<head>
+  <title>Typedonation</title>
+</head>
+<body>
+  <h1>Hello world</h1>
+
+  <p>Current: {{current}}</p>
+  <p>Target: {{target}}</p>
+
+  <div style="position:relative;width:400px;height:40px;background:cyan;">
+    <div style="position:absolute;left:0;top:0;bottom:0;width:{{percentage}}%;height:40px;background:blue">
+    </div>
+  </div>
+
+  <h2>Contributors</h2>
+  <ul>
+  {{#each contributors}}
+    <li>{{name}}</li>
+  {{/each}}
+  </ul>
+</body>

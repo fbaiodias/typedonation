@@ -1,4 +1,4 @@
-typeform-webhook-boilerplate
+typedonation
 ===
 
 This is a simple boilerplate node project for [Typeform Webhooks](https://www.typeform.com/help/webhooks/). It stores the received responses on a Postgres database and lists them.
